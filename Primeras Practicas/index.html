@@ -3,6 +3,8 @@
 
 <head>
   <meta charset="utf-8">
+  <link href="style.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
@@ -17,49 +19,40 @@
   <header>
     <nav>
       <ul>
-        <li>Dato 1</li>
-        <li>Hola</li>
-        <li>Pagina Web</li>
+        <li class="bar">Dato 1</li>
+        <li class="bar">Hola</li>
+        <li class="bar">Pagina Web</li>
       </ul>
     </nav>
+    <br>
+    <br>
+    <br>
     <nav>
-      <ul>Dato 1</ul>
-      <ul>Dato 2</ul>
-      <ul>Dato 3</ul>
+      <ol id="ordenada">
+        <li>Pruba</li>
+        <li>Fundamentos</li>
+        <li>HTML</li>
+      </ol>
 
     </nav>
-
-    <div>
-      <table class="default" align="center" border="1">
-        <tr>
-          <th>Titulo 1</th>
-          <th>Titulo 2</th>
-          <th>Titulo 3</th>
-        </tr>
-        <tr>
-          <td>Celda 4</td>
-          <td>Celda 5</td>
-          <td>Celda 6</td>
-        </tr>
-        <tr>
-          <td>Celda 7</td>
-          <td>Celda 8</td>
-          <td>Celda 9</td>
-        </tr>
-      </table>
-    </div>
-
   </header>
   <div style="text-align: center;">
     <a href="http://telematicanet.ucol.mx" target="blank"> <img
         src="https://leadsfac.com/wp-content/uploads/2019/10/Lorem-Ipsum-alternatives.png.webp" alt=""></a>
   </div>
-  <p><i><b>Lorem ipsum dolor sit amet consectetur</b> adipisicing elit. Eligendi quos recusandae odit cum repellendus
-      <strong>numquam</strong>. Non
-      eius assumenda odio, atque quisquam tempora, obcaecati commodi nobis officia unde necessitatibus error
-      officiis.</i>
-  </p>
-
+  <br>
+  <section id="Lorem" class="first">
+    <p><i><b>Lorem ipsum dolor sit amet consectetur</b> adipisicing elit. Eligendi quos recusandae odit cum repellendus
+        <strong>numquam</strong>. Non
+        eius assumenda odio, atque quisquam tempora, obcaecati commodi nobis officia unde necessitatibus error
+        officiis.</i>
+    </p>
+  </section>
+  <section id="Fundamentos" class="second">
+    <p><i><b>Fundamentos de Programacion</b> es una materia incluida en el plan de estudios de la carrera de Ingenieria
+        en Software de primer semestre de la<strong> Universidad de Colima</strong>. </i>
+    </p>
+  </section>
   <div style="text-align: center;">
     <aside>
       <input type="text">
@@ -76,10 +69,9 @@
     </aside>
   </div>
 
-  <footer>
-    <div style="text-align: center;">
-      <img src="https://ferfabian.com/wp-content/uploads/2020/02/footer-section-bootstrap-to-wordpress.png" alt="">
-    </div>
+  <footer style="margin: 0 auto;">
+    <p style="text-align: center; position: relative; top: 20px;">Universidad de Colima. Ingenieria en Software.
+      Facultad de Telematica. 2021</p>
   </footer>
 
 </body>
