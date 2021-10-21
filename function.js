@@ -1,7 +1,7 @@
 var n1;
 var n2;
 var suma;
-//Variables ejemplo de tipos de datos
+//Variables ejemplo de tipos de datos, no es necesario declarar su tipo.
 var string = 'mensaje';
 var numero = 1;
 var logico = true;
