@@ -1,7 +1,7 @@
 let nombres=['Esteban','Cecilia','Brandon','Carolina','Eve','Fernanda'];
 
 //.length me dice la ultima posicion del arreglo, con esa informacion sabemos el tamano del array
-
+//usa mas ancho de banda 
 for (let index = 0; index < nombres.length; index++) {
   
   document.write('tamanio del arreglo:'+ ' '+nombres.length+' ');
@@ -12,6 +12,7 @@ for (let index = 0; index < nombres.length; index++) {
 //usa una funcion de flecha (arrow function)
 //parametro=variable
 //no se puede cortar con break ni continue
+//necesita menos ancho de banda para ejecutarse (a la hora de usarlo en una pagina web real)
 nombres.forEach(element => {
   document.write('metodo forEach'+' '+element+'<br>')
   //aqui podemos seguir escribiendo mas instrucciones
