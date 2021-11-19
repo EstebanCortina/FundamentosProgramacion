@@ -12,7 +12,7 @@ function  div() {
 }
 
 function ac() {
-  // document.getElementById("formulario").reset();
+  
   n1.value = "";
   n2.value = "";
   }
