@@ -12,7 +12,6 @@ function  div() {
 }
 
 function ac() {
-  
   n1.value = "";
   n2.value = "";
   }
