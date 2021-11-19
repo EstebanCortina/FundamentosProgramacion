@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="index.js"></script>
+  <title>Calculadora Sencilla</title>
+</head>
+
+<body>
+
+
+  <br><br><br><br>
+  <table style="margin: 0 auto;">
+    <tr>
+      <td><input type="number" id="n1"></td>
+      <td> <span id="operacion"></span> </td>
+      <td><input type="numer" id="n2"></td>
+    </tr>
+  </table>
+  <table style="margin: 0 auto;">
+    <tr>
+      <td><input type="button" id="suma" value="+" onclick="suma();"></td>
+      <td><input type="button" id="resta" value="-" onclick="resta();"></td>
+      <td><input type="button" id="multi" value="x" onclick="multi();"></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="ac" onclick="ac();"></td>
+      <td><input type="button" id="div" value="/" onclick="div();"></td>
+      <td><input type="button" id="igual" value="=" onclick="igual();"></td>
+    </tr>
+  </table>
+
+  <div style="text-align: center;">
+    <p>Resultado 1: <span id='r1'></span></p>
+    <p>Resultado 2: <span id='r2'></span></p>
+    <p>Resultado 3: <span id='r3'></span></p>
+    <p>Resultado 4: <span id='r4'></span></p>
+
+  </div>
+
+</body>
+
+</html>
